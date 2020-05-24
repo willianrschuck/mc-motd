@@ -1,0 +1,9 @@
+main: com.blogspot.tragacafe.motd.Main
+name: Motd 
+version: 0.1
+author: bringCoffee
+description: Select a diferent motd for the server every time a player pings it
+commands:
+   motd:
+      description: Motd related comands
+      usage: /<command>
