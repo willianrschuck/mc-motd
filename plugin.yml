@@ -7,3 +7,9 @@ commands:
    motd:
       description: Motd related comands
       usage: /<command>
+      permission: motd.all
+      
+permissions: 
+   motd.all:
+      description: Gives access to all Motd related commands
+      default: op
